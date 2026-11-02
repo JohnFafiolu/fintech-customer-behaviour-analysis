@@ -81,3 +81,19 @@ fintech-customer-behaviour-analysis/
 │   └── limitations.md
 │
 └── dashboard/
+```
+## Important Limitations
+
+The dataset documentation does not establish the operational definition or timing of the churn classification.
+
+Other limitations include incomplete date information, missing values, inconsistencies across related fields, and undocumented monetary units.
+
+Consequently, the project treats the target variable as a supplied classification and interprets model performance cautiously.
+
+Further details are available in the [Project Limitations](documentation/limitations.md) document.
+
+## Author
+
+**John Fafiolu**
+
+Statistician | Data Analyst
