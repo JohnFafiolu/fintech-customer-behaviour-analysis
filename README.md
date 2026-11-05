@@ -64,15 +64,41 @@ The dashboard contains:
 - [Dashboard Documentation](dashboard/README.md)
 ## Key Findings
 
-- The supplied churn classification was imbalanced, with 72.05% of records labelled as churned.
-- Demographic variables showed limited associations with the supplied classification.
-- Transaction counts differed substantially between the two classification groups.
-- Having zero active cards showed a strong association with the supplied classification.
-- Billing amount and usage percentage also differed between the groups.
-- The annual transaction logistic regression model achieved 95.87% test accuracy and a ROC-AUC of 0.9877 among the models investigated.
+### 1. Customer Classification
+72.05% of customers were labelled as churned, compared with 27.95% labelled as not churned.
 
-These findings describe associations within the supplied dataset. They do not establish causation or demonstrate validated future churn prediction.
+The classification distribution was imbalanced, which is important when interpreting the statistical analysis and model performance.
 
+### 2. Demographic Characteristics
+Age showed a statistically significant association with customer classification, but the effect size was negligible (Cramér's V = 0.0288).
+
+Gender and marital status showed no statistically significant associations.
+
+**Business implication:** Demographic characteristics alone may offer limited value for distinguishing the two customer groups.
+
+### 3. Transaction Behaviour
+Customers labelled as churned had a substantially higher average transaction count (350.63) than customers labelled as not churned (106.43).
+
+The difference was statistically significant, with a very strong effect size (rank-biserial correlation = 0.9041).
+
+**Business implication:** Transaction activity deserves further investigation when studying differences between these customer classifications.
+
+### 4. Card Ownership
+Customers labelled as churned had an average of 1.12 active cards, compared with 0.33 among customers labelled as not churned.
+
+The association between having zero active cards and customer classification was particularly strong (Cramér's V = 0.6589).
+
+**Business implication:** Card ownership patterns may provide useful signals for understanding differences in customer engagement and product usage.
+
+### 5. Classification Modelling
+The annual transaction logistic regression model achieved:
+
+- Accuracy: 95.87%
+- ROC-AUC: 0.9877
+- Not-churned F1-score: 0.93
+- Churn-labelled F1-score: 0.97
+
+These results describe performance on the held-out test set. They do not establish the model's ability to predict future customer churn.
 ## Repository Structure
 
 ```text
