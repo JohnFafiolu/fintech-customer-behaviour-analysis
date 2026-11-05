@@ -1,18 +1,20 @@
 # Fintech Customer Behaviour & Classification Analysis
 
-An end-to-end data analysis project investigating customer characteristics, transaction patterns, card ownership, billing behaviour, and supplied churn classifications using SQL, Python, and statistical methods.
-
 ## Project Overview
 
-Customer behaviour data can reveal patterns that are not immediately obvious from summary reports.
+This project investigates customer characteristics, transaction behaviour, card ownership and billing patterns across two customer classifications supplied in a fintech dataset.
 
-This project investigates how customer characteristics and behavioural patterns differ across the two classifications provided in the Churn XYZ dataset.
+Using SQL, Python, statistical methods and Power BI, I conducted an end-to-end analysis to identify patterns, test relationships and evaluate how customer attributes distinguish the supplied classifications.
 
-Rather than relying solely on descriptive dashboards, the analysis combines SQL-based exploration, statistical hypothesis testing, and logistic regression to examine the strength and significance of observed relationships.
+Beyond descriptive analysis, the project applies hypothesis testing, effect size measurements and logistic regression to examine the strength of observed relationships and assess classification performance.
 
-## Research Question
+**Central Research Question:**
 
-**What customer characteristics and behavioural patterns distinguish customers across the two classifications supplied in the dataset?**
+What customer characteristics and behavioural patterns distinguish customers across the two classifications supplied in the XYZ dataset?
+
+## Analytical Approach
+
+Question → Data Preparation → SQL Analysis → Statistical Investigation → Visualisation → Business Interpretation.
 
 ## Tools and Technologies
 
