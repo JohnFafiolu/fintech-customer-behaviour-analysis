@@ -44,6 +44,21 @@ The project followed this analytical process:
 5. **Predictive Modelling:** Developed and evaluated logistic regression models using different transaction predictors.
 6. **Documentation:** Recorded findings, data quality decisions, and analytical limitations.
 
+## Power BI Dashboard
+
+An interactive four-page Power BI report exploring customer classification, transaction behaviour, card ownership, billing patterns and statistical evidence.
+
+The dashboard contains:
+
+1. Customer Overview
+2. Customer Behaviour
+3. Statistical Evidence
+4. Insights & Recommendations
+
+**View the dashboard:**
+- [Power BI Dashboard (.pbix)](dashboard/fintech_customer_churn.pbix)
+- [PDF Report](dashboard/fintech_customer_churn.pdf)
+- [Dashboard Documentation](dashboard/README.md)
 ## Key Findings
 
 - The supplied churn classification was imbalanced, with 72.05% of records labelled as churned.
