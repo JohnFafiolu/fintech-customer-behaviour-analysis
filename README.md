@@ -20,6 +20,7 @@ Rather than relying solely on descriptive dashboards, the analysis combines SQL-
 - **Python:** Data analysis, statistical testing, correlation analysis, and logistic regression.
 - **Google Colab:** Python analysis environment.
 - **Microsoft Excel:** Initial data inspection, preparation, and quality assessment.
+- **PowerBI:** For Final Dashboard
 - **GitHub:** Version control and project documentation.
 
 ## Dataset
