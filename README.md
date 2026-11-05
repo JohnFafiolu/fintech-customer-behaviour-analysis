@@ -48,7 +48,7 @@ The project followed this analytical process:
 6. **Documentation:** Recorded findings, data quality decisions, and analytical limitations.
 
 ## Power BI Dashboard
-
+![Fintech Customer Behaviour Dashboard](dashboard/dashboard_overview.png)
 An interactive four-page Power BI report exploring customer classification, transaction behaviour, card ownership, billing patterns and statistical evidence.
 
 The dashboard contains:
