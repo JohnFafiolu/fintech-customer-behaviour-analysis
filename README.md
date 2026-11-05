@@ -22,7 +22,7 @@ Question → Data Preparation → SQL Analysis → Statistical Investigation →
 - **Python:** Data analysis, statistical testing, correlation analysis, and logistic regression.
 - **Google Colab:** Python analysis environment.
 - **Microsoft Excel:** Initial data inspection, preparation, and quality assessment.
-- **PowerBI:** For Final Dashboard
+- **Power BI:** Interactive dashboard development and data visualisation.
 - **GitHub:** Version control and project documentation.
 
 ## Dataset
@@ -99,6 +99,10 @@ fintech-customer-behaviour-analysis/
 │   └── limitations.md
 │
 └── dashboard/
+    ├── README.md
+    ├── fintech_customer_churn.pbix
+    ├── fintech_customer_churn.pdf
+    └── dashboard_overview.png
 ```
 ## Important Limitations
 
